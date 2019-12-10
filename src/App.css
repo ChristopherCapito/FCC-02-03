@@ -1,0 +1,21 @@
+.drum-pad {
+  width: 100px;
+  height: 100px;
+  color: white;
+  margin-right: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 4px 0px 0px #045bb8;
+  transition: all 100ms ease-in-out;
+}
+
+.drum-pad:active {
+  transform: translateY(3px);
+  box-shadow: 0px 1px 0px 0px #045bb8;
+}
+.activePad {
+  transform: translateY(3px);
+  box-shadow: 0px 1px 0px 0px #045bb8;
+}
